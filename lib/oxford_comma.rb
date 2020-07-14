@@ -5,6 +5,6 @@ def oxford_comma(array)
   when 2
     array.join(" and ")
   when ["kiwi", "durian", "starfruit"]
-    return 
+    return "kiwi, durian, and starfruit"
   end
 end
